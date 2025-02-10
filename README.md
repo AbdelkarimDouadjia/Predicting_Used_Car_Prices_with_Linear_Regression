@@ -12,7 +12,7 @@ The project follows a structured machine learning pipeline that includes:
 
 ## Dataset
 We used the **Craigslist Cars and Trucks Data** from Kaggle. You can find the dataset at the following link:
-[Craigslist Cars and Trucks Data](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
+[Kaggle's "Used Cars" Dataset](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
 
 ## Project Files
 This repository contains the following files:
