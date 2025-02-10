@@ -21,6 +21,7 @@ This repository contains the following files:
 - `01. Linear Regression.pdf`: Instructions outlining the tasks and methodology followed in this project.
 
 ## Methodology
+
 ### 1. Data Exploration and Preprocessing
 - Loaded and examined the dataset to understand its structure.
 - Identified and handled missing values and outliers.
@@ -44,13 +45,13 @@ This repository contains the following files:
 
 ### 5. Feature Importance Analysis
 - Identified key factors influencing car prices:
-  - **Manufacturer** (Luxury brands like Ferrari, Aston-Martin, Tesla had the highest positive impact on price).
-  - **Fuel type** (Diesel had a notable influence).
-  - **Odometer readings** had a moderate impact on price.
+  - **Manufacturer:** Luxury brands like Ferrari, Aston-Martin, and Tesla had the highest positive impact on price.
+  - **Fuel type:** Diesel had a notable influence.
+  - **Odometer readings:** Had a moderate impact on price.
 
 ### 6. Predictions on New Car Data
 - Tested the model with unseen car data:
-  - Example:
+  - **Example:**
     - Manufacturer: Toyota
     - Model: Corolla
     - Year: 2018
@@ -68,6 +69,33 @@ This repository contains the following files:
 - The model is limited by dataset biases and feature availability.
 - Advanced regression techniques such as **polynomial regression** or **regularized regression (Ridge, Lasso)** could improve accuracy.
 - Incorporating real-time car pricing data could enhance predictive performance.
+
+## Technologies Used
+- **Python**
+- **Pandas & NumPy:** Data processing and manipulation
+- **Scikit-learn:** Machine learning implementation
+- **Matplotlib & Seaborn:** Data visualization
+- **Jupyter Notebook / Google Colab:** Interactive coding and experimentation
+
+## How to Run the Project Locally
+To run the project on your local machine, follow these steps:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/used-car-linear-regression.git
+   cd used-car-linear-regression
+    ```
+2. **Install the Required Libraries:** 
+   Make sure you have installed all the necessary libraries to run the Jupyter Notebook. You can install them using the following command:
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+   ```
+3. **Launch Jupyter Notebook:**
+    Run the following command to open the Jupyter Notebook in your browser:
+    ```bash
+    jupyter notebook
+    ```
+    Open the `1_Linear_Regression.ipynb` fnotebook and run the cells to execute the project.
 
 ## Google Colab Notebook
 You can access the project notebook on Google Colab via the following link:
