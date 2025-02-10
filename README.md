@@ -95,7 +95,7 @@ To run the project on your local machine, follow these steps:
     ```bash
     jupyter notebook
     ```
-    Open the `1_Linear_Regression.ipynb` fnotebook and run the cells to execute the project.
+    Open the `1_Linear_Regression.ipynb` notebook and run the cells to execute the project.
 
 ## Google Colab Notebook
 You can access the project notebook on Google Colab via the following link:
